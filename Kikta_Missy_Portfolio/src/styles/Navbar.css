@@ -1,0 +1,23 @@
+:root {
+  --background: #2E1C2B;
+  --dark: #050404;
+  --mid: #4A1942;
+  --light: #893168;
+  --lightest: #EAEAEA;
+}
+
+.navbar {
+  background: var(--mid);
+  height: 60px;
+}
+
+.navbar a {
+  color: var(--lightest);
+  font-family: lato , sans-serif;
+  font-size: 1.3rem;
+  text-decoration: none;
+  margin: 5px;
+  line-height: 3;
+}
+
+

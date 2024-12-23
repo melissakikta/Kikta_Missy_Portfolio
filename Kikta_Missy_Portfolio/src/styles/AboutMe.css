@@ -1,0 +1,26 @@
+:root {
+  --background: #2E1C2B;
+  --dark: #050404;
+  --mid: #4A1942;
+  --light: #893168;
+  --lightest: #EAEAEA;
+}
+
+.aboutMe {
+  background: var(--background);
+  font-family: lato , sans-serif;
+  padding: 20px;
+}
+
+.aboutMe h2 {
+  font-family: abril_fatface, sans-serif;
+  text-align: center;
+  color: var(--lightest);
+}
+
+.aboutMe p {
+  color: var(--lightest);
+  font-family: lato , sans-serif;
+  font-size: 1.2rem;
+  line-height: 2;
+}

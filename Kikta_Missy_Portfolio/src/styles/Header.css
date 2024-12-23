@@ -1,0 +1,32 @@
+:root {
+  --background: #2E1C2B;
+  --dark: #050404;
+  --mid: #4A1942;
+  --light: #893168;
+  --lightest: #EAEAEA;
+}
+
+.header {
+  background: var(--mid);
+  background-image: url("../assessts/images/stone-wall.jpg"), linear-gradient(180deg, var(--lightest) 0%, var(--dark) 100%);
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: soft-light;
+  min-height: 30vh;
+  color: var(--light);
+  padding: 2% 6%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: right;
+}
+
+.header h1 {
+  font-family: abril_fatface, sans-serif;
+  margin: 0;
+  padding-top: 75px;
+  text-align: left;
+  color: var(--lightest);
+  font-size: 3rem;
+}
