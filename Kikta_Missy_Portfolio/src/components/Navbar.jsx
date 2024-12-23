@@ -5,6 +5,7 @@ import '../styles/Navbar.css';
 function Navbar() {
   return (
     <nav style={styles.navbarStyle} className="navbar">
+      {/* Navgation links */}
       <a href="/">About Me</a>
       <a href="/portfolio">Portfolio</a>
       <a href="/contact">Contact</a>

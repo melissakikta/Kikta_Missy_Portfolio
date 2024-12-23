@@ -9,6 +9,9 @@
 .navbar {
   background: var(--mid);
   height: 60px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .navbar a {
@@ -18,6 +21,26 @@
   text-decoration: none;
   margin: 5px;
   line-height: 3;
+  text-decoration: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  background-image: linear-gradient(270deg, var(--lightest) 0%, var(--lightest) 100%);
+  background-size: 100% 0.2em;
+  background-position: bottom;
+  transition: all 0.25s ease-in;
+  font-size: 1.4rem;
 }
 
+.navbar a:hover {
+  background-size: 100% 100%;
+  color: var(--background);
+}
 
+.navbar a:last-child {
+  margin-right: 0;
+}
+
+.navbar a:active {
+  background-size: 100% 100%;
+  color: var(--background);
+}
