@@ -11,7 +11,7 @@
 }
 
 .contactForm {
-  background: var(--background);
+  background: var(--mid);
   font-family: lato , sans-serif;
   padding: 20px;
 }
@@ -29,6 +29,58 @@
   line-height: 2;
 }
 
+/* ContactForm.css */
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid var(--background);
+  border-radius: 5px;
+  box-shadow: 2px 2px 12px var(--dark);
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid var(--lightest);
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: var(--mid);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--light);
+}
+
+.error {
+  color: var(--mid);
+  font-size: 0.9em;
+}
+
+.submitted-data {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid var(--light);
+  border-radius: 5px;
+  background-color: var(--mid);
+}
+
+
+/*coppied from AboutMe.css*/
 .page-section {
   margin: 25px 0;
   padding: 10px 0;
