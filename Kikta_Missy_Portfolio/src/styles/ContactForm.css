@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -16,7 +18,7 @@
   padding: 20px;
 }
 
-.contactForm h2 {
+.contactForm h1 {
   font-family: abril_fatface, sans-serif;
   text-align: center;
   color: var(--lightest);
@@ -65,6 +67,28 @@ button {
 button:hover {
   background-color: var(--light);
 }
+
+
+/*added button styling*/
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--light);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: var(--lightest);
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
 
 .error {
   color: var(--mid);

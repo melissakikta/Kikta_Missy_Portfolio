@@ -17,7 +17,7 @@
   width: 100vw;             /* Full width */  
   padding: 10px 20px;     /* Padding around the header */
   box-sizing: border-box;  
-  background-color: var(--mid); /* Background color */
+  background-color: var(--light); /* Background color */
   color: var(--lightest);            /* Text color */
 }
 
