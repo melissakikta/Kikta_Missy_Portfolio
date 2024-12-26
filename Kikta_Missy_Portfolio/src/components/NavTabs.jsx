@@ -1,5 +1,5 @@
-// Here we are using object destructuring assignment to pluck off our variables from the props object
-// We assign them to their own variable names
+import '../styles/NavTabs.css';
+// Passing the currentPage and handlePageChange method from our parent component (PortfolioContainer) to our child component (NavTabs)
 function NavTabs({ currentPage, handlePageChange }) {
   return (
     <ul className="nav nav-tabs">
@@ -34,6 +34,17 @@ function NavTabs({ currentPage, handlePageChange }) {
           Contact Form
         </a>
       </li>
+      <li className="nav-item">
+        <a 
+          href="https://drive.google.com/file/d/14GO16Umx7UcntMyhBqZwolBbq5VWmS5w/view?usp=drive_link" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          >
+          Resume (PDF)
+        </a>
+</li>
+
     </ul>
   );
 }

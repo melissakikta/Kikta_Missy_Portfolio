@@ -4,8 +4,8 @@ import '../styles/AboutMe.css';
 //function to create the About Me section
 function AboutMe() {
   return (
-    <section style={styles.aboutMeStyles} className="aboutMe">
-      <div style={styles.aboutMeStyles} className="page-section">
+    <section className="aboutMe">
+      <div className="page-section">
       
       {/* Section title */}
         <h2>About Me</h2>
@@ -17,7 +17,7 @@ function AboutMe() {
         </p>
       
       {/* Add an image of me */}
-        <img src="../assets/images/m_kikta.jpeg" alt="Melissa Kikta Photo"/>
+        <img src="../src/assets/images/m_kikta.jpeg" alt="Melissa Kikta Photo"/>
       </div>
     </section>
   );

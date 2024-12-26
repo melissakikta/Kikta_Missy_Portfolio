@@ -3,7 +3,7 @@ import '../styles/Portfolio.css';
 //function to create the About Me section
 function Portfolio() {
   return (
-    <section style={styles.portfolioStyles} className="portfolio">
+    <section className="portfolio">
       
       {/* Section title */}
       <h2>Portfolio</h2>

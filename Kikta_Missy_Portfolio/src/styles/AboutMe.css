@@ -80,3 +80,9 @@
   transition: all 0.5s;
   font-size: 0.9rem;
 }
+
+img {
+  display: flex;
+  width: 25%;
+  height: auto;
+}

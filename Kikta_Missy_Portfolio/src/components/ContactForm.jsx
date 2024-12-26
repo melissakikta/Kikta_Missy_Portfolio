@@ -52,7 +52,7 @@ const ContactForm = () => {
   };
 
   return (
-    <section style={styles.contactFormStyles} className="contactForm">
+    <section className="contactForm">
     <div>
       <form onSubmit={handleSubmit}>
         <div>
