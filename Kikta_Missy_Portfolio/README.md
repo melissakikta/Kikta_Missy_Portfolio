@@ -2,7 +2,7 @@
 Welcome to my portfolio! This is a space dedicated to showing my talents in software development.
 
 ## 📚 Description
-This application is designed to showcase the skills and talents I pocess as a software developer.   
+This application is designed to showcase the skills and talents I gained as a software developer.   
 
 A video tutorial can be found [here](https://drive.google.com/file/d/1nGRM2oSELmLZ6qEQkkcaF6xz0PEmrMWx/view?usp=sharing)
 

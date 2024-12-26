@@ -1,3 +1,6 @@
+/* Ensure Abril Fatface font is imported */
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 :root {
   --background: #2E1C2B;
   --dark: #050404;
@@ -6,33 +9,42 @@
   --lightest: #EAEAEA;
 }
 
+
 .header {
-  background: var(--mid);
-  background-image: url("../assessts/images/stone-wall.jpg"), linear-gradient(180deg, var(--lightest) 0%, var(--dark) 100%);
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  background-blend-mode: soft-light;
-  min-height: 30vh;
-  color: var(--light);
-  padding: 15px 6% 15px 0;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-  align-items: flex-end;
-  text-align: right;
+  display: flex;             /* Makes layout flexible */
+  align-items: center;       /* Align vertically */
+  justify-content: flex-start; /* Align content to the left */
+  width: 100vw;             /* Full width */  
+  padding: 10px 20px;     /* Padding around the header */
+  box-sizing: border-box;  
+  background-color: var(--mid); /* Background color */
+  color: var(--lightest);            /* Text color */
 }
 
-
+/* h1 styling */
 .header h1 {
-  font-family: abril_fatface, sans-serif;
-  margin: 0;
-  padding: 5px 1% 5px 6%;
-  margin: 0;
-  font-size: 4vw;
-  line-height: 1;
-  text-align: left;
-  color: var(--lightest);
-  font-size: 3rem;
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 4rem;          /* Font size */
+  margin: 20px;                  /* Remove default margin */
+  color: var(--lightest);             /* Text color */
 }
+
+/* mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
+@media screen and (min-width: 768px) {
+  /* on tablets, set columns to only be 50% of the width and not grow */
+  .header {
+    font-size: 2.5rem;
+    justify-content: center;       /* Center the header */
+  }
+}
+
+/* media query for larger screens */
+@media screen and (min-width: 992px) {
+  .header {
+    font-size: 3rem;
+    margin: 15px;  
+    justify-content: flex-start;
+  }
+
+}
+

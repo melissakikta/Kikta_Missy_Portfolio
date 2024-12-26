@@ -7,7 +7,7 @@
 }
 
 .nav-item {
-  background: var(--mid);
+  background: var(--light);
   height: 60px;
   display: flex;
   flex-direction: row;
