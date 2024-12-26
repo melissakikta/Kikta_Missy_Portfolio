@@ -1,0 +1,44 @@
+:root {
+  --background: #2E1C2B;
+  --dark: #050404;
+  --mid: #4A1942;
+  --light: #893168;
+  --lightest: #EAEAEA;
+}
+
+/* Footer container styling */
+.footer {
+  position: fixed;          /* Sticks to the bottom */
+  bottom: 0;                /* Aligns at the bottom of the page */
+  width: 100%;              /* Full width */
+  background-color: var(--mid); /* mid background color */
+  padding: 10px 0;          /* Add some padding */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+/* Footer links styling */
+.footer-links {
+  display: flex;            /* Flexbox for row alignment */
+  justify-content: center;  /* Center horizontally */
+  align-items: center;      /* Center vertically */
+  gap: 20px;                /* Space between links */
+  list-style: none;         /* Remove bullet points */
+  padding: 0;               /* Remove padding */
+  margin: 0;                /* Remove margin */
+}
+
+/* Link styling */
+.footer-links a {
+  text-decoration: none;    /* Remove underline */
+  color: var(--lightest);              /* Dark text color */
+  font-size: 16px;          /* Font size */
+  display: flex;            /* Align image and text */
+  align-items: center;      /* Center vertically */
+  gap: 8px;                 /* Space between text and image */
+}
+
+/* Image styling */
+.footer-links img {
+  width: 100%;              /* Set icon size */
+  height: auto;
+}
