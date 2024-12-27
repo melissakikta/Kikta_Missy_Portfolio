@@ -6,21 +6,23 @@
   --lightest: #EAEAEA;
 }
 
-.page-section {
-  margin: 25px 0;
-  padding: 10px 0;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: stretch;
-  justify-content: space-between;
+.portfolio {
+  padding-top: 140px; /* Accounts for fixed header and navbar height */
+  padding-bottom: 60px; /* Accounts for footer height */
   background: var(--background);
+  justify-content: center;
+  text-align: center; /* Centers the title */
+  font-family: lato, sans-serif;
   color: var(--lightest);
-  font-family: lato , sans-serif;
-  padding: 20px;
-  margin-top: 140px; /* Accounts for the header and navbar height */
-  margin-bottom: 60px; /* Accounts for the footer height */
 }
+
+.portfolio h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: var(--lightest);
+}
+
 
 .page-section > h1 {
   flex: 0 0 20%;
@@ -40,131 +42,106 @@
   margin-bottom: 20px;
 }
 
+/*new code */
 .flex-container {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+  gap: 20px; /* Spacing between items */
+  padding: 20px;
+  justify-items: center; /* Centers the grid items horizontally */
 }
 
 .flex-item {
-  border: 5px solid var(--secondary);
-  background-color: var(--primary);
-  color: var(--tertiary);
-  min-height: 150px;
-  max-height: 150px;
-  flex-basis: calc(50% - 1em);
-  display: flex;
-  align-items: flex-end;
-  padding: 0 0 20px 0;
-  margin: 0.5em;
-  text-decoration: none;
-  background-blend-mode: soft-light;
-  background-size: 150%;
-  transition: all 0.5s;
-  font-size: 0.9rem;
+  position: relative;
+  width: 100%;
+  max-width: 300px; /* Adjust width of each project card */
+  height: 200px; /* Set fixed height */
+  border-radius: 10px; /* Optional rounded corners */
+  overflow: hidden; /* Prevents content overflow */
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
 }
 
 .flex-item:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+  transform: scale(1.05); /* Slight zoom effect on hover */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
 }
 
-.flex-item div {
-  background-color: var(--secondary);
-  padding: 8px 10px;
+/* Background overlay with blur effect */
+.flex-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6); /* Dark overlay */
+  backdrop-filter: blur(5px); /* Blur effect */
+  z-index: 1;
 }
 
-.flex-item h3 {
-  font-size: 1.75rem;
-  background-color: var(--secondary);
+/* Text on the image */
+.flex-item h2,
+.flex-item p {
+  position: relative;
+  z-index: 2;
+  color: var(--lightest);
+  font-weight: bold;
+  text-align: center;
   padding: 10px;
 }
 
-.contact address {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
-  height: 100%;
-}
-
-.contact address a {
-  color: var(--tertiary);
-  padding: 5px;
+/* Add links inside flex items */
+.flex-item a {
   text-decoration: none;
-  font-size: 1.3rem;
-  font-style: normal;
-  background-image: linear-gradient(270deg, var(--primary) 0%, var(--primary) 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 0.2em;
-  background-position: bottom;
-  transition: all 0.25s ease-in;
-  margin: 0 0.2rem 0.1rem;
-  display: inline-block;
+  color: var(--lightest);
 }
 
-.contact address a:hover {
-  background-size: 100% 88%;
-  color: var(--secondary);
+.flex-item p {
+  font-size: 0.9rem;
+  margin-top: 10px;
 }
+
 
 /* portfolio project images */
-/* TODO: Add portfolio project images here using background images*/
 .project_1 {
-  background-image: url("../src/assets/images/employees.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background: url("../src/assets/images/employees.png") center/cover no-repeat;
 }
 
 .project_2 {
-  background-image: url("../src/assets/images/weather.webp"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background: url("../src/assets/images/weather.webp") center/cover no-repeat;
 }
 
 .project_3 {
-  background-image: url("../src/assets/images/vehicle.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background: url("../src/assets/images/vehicle.jpg") center/cover no-repeat;
 }
 
 .project_4 {
-  background-image: url("../src/assets/images/readme.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background: url("../src/assets/images/readme.png") center/cover no-repeat;
 }
 
 .project_5 {
-  background-image: url("../src/assets/images/employees.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background: url("../src/assets/images/pets.jpeg") center/cover no-repeat;
 }
 
 .project_6 {
-  background-image: url("../src/assets/images/kikta.png"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+  background: url("../src/assets/images/kikta.png") center/cover no-repeat;
 }
+
 
 /* media queries */
 
 /* media queries for a max-width of 980px */
-@media screen and (max-width: 980px) {
-  header {
-    padding: 0 0 10px 0;
-    justify-content: center;
-    text-align: center;
+@media screen and (max-width: 768px) {
+  .flex-container {
+    grid-template-columns: repeat(1, 1fr); /* Single column layout */
   }
 
-  header h1 {
-    width: 100%;
-    padding: 5px;
-    margin-bottom: 10px;
-    font-size: 10vw;
+  .portfolio h1 {
+    font-size: 2rem; /* Smaller title size */
   }
 
-  header nav {
-    justify-content: center;
-  }
-
-  .page-section > h2,
-  .page-section > div {
-    flex: 0 0 100%;
-  }
-
-  .page-section > h2 {
-    border-right: none;
-    border-bottom: 4px solid var(--primary);
-    margin-bottom: 20px;
-    padding-bottom: 10px;
-    text-align: left;
-    font-size: 7vw;
+  .flex-item {
+    max-width: 90%; /* Adjust width for smaller screens */
   }
 }

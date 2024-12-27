@@ -9,28 +9,58 @@ function Portfolio() {
         <h1>Portfolio</h1>
         <div className="flex-container">
       {/* Project links */}
-          <div class="flex-item project_1">
-            <h2>Employee Tracker</h2>
+          <div className="flex-item project_1">
+            <a href="https://github.com/melissakikta/Kikta_Employee_Tracker.git" target="_blank" rel="noopener noreferrer">
+              <h2>Employee Tracker</h2>
+            </a>
+            <a href="https://github.com/melissakikta/Kikta_Employee_Tracker.git" target="_blank" rel="noopener noreferrer">
+              <p>GitHub Repo</p>
+            </a>
           </div>
 
-          <div class="flex-item project_2">
-            <h2>Weather Dashboard</h2>
+          <div className="flex-item project_2">
+            <a href="https://github.com/melissakikta/Kikta_Weather_Dashboard.git" target="_blank" rel="noopener noreferrer">
+              <h2>Weather Dashboard</h2>
+            </a>
+            <a href="https://github.com/melissakikta/Kikta_Weather_Dashboard.git" target="_blank" rel="noopener noreferrer">
+              <p>GitHub Repo</p>
+            </a>
           </div>
 
-          <div class="flex-item project_3">
-            <h2>Vehicle Builder</h2>
+          <div className="flex-item project_3">
+            <a href="https://github.com/melissakikta/Kikta_Vehicle_Builder.git" target="_blank" rel="noopener noreferrer">
+              <h2>Vehicle Builder</h2>
+            </a>
+            <a href="https://github.com/melissakikta/Kikta_Vehicle_Builder.git" target="_blank" rel="noopener noreferrer">
+              <p>GitHub Repo</p>
+            </a>
           </div>
 
-          <div class="flex-item project_4">
-            <h2>README Generator</h2>
+          <div className="flex-item project_4">
+            <a href="https://github.com/melissakikta/Kikta_README_Generator.git" target="_blank" rel="noopener noreferrer">
+              <h2>README Generator</h2>
+            </a>
+            <a href="https://github.com/melissakikta/Kikta_README_Generator.git" target="_blank" rel="noopener noreferrer">
+              <p>GitHub Repo</p>
+            </a>
           </div>
 
-          <div class="flex-item project_5">
-            <h2>Portfolio (HTML/CSS)</h2>
+          <div className="flex-item project_5">
+            <a href="https://kagreene.github.io/Rescuers-down-under/" target="_blank" rel="noopener noreferrer">
+              <h2>Rescuers Down Under Pet Rescue</h2>
+            </a>
+            <a href="https://github.com/kagreene/Rescuers-down-under.git" target="_blank" rel="noopener noreferrer">
+              <p>GitHub Repo</p>
+            </a>
           </div>
 
-          <div class="flex-item project_6">
-            <h2>Portfolio (HTML/CSS)</h2>
+          <div className="flex-item project_6">
+            <a href="https://github.com/melissakikta/Portfolio.git" target="_blank" rel="noopener noreferrer">
+              <h2>Portfolio (HTML/CSS)</h2>
+            </a>
+            <a href="https://github.com/melissakikta/Portfolio.git" target="_blank" rel="noopener noreferrer">
+              <p>GitHub Repo</p>
+            </a>
           </div>
         </div>
       </div>
