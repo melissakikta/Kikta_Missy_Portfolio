@@ -15,10 +15,16 @@
   align-items: center;       /* Align vertically */
   justify-content: flex-start; /* Align content to the left */
   width: 100vw;             /* Full width */  
-  padding: 10px 20px;     /* Padding around the header */
+  padding: 0px 0px;     /* Padding around the header */
+  margin: 0;                  /* Remove default margin */
   box-sizing: border-box;  
   background-color: var(--light); /* Background color */
   color: var(--lightest);            /* Text color */
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000; /* Ensure header is on top of other elements */
+  height: 80px; /* Set height of header */
 }
 
 /* h1 styling */
@@ -35,6 +41,8 @@
   .header {
     font-size: 2.5rem;
     justify-content: center;       /* Center the header */
+    width: 100vw;             /* Full width */  
+
   }
 }
 
@@ -42,9 +50,8 @@
 @media screen and (min-width: 992px) {
   .header {
     font-size: 3rem;
-    margin: 15px;  
-    justify-content: flex-start;
+    justify-content: center;
+    width: 100vw;             /* Full width */  
   }
-
 }
 

@@ -42,7 +42,7 @@ h1 {
 
 
 /* mobile-first approach, use `min-width` values going from narrow -> wide for a responsive design */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   /* on tablets, set columns to only be 50% of the width and not grow */
   .card-column {
     flex: 0 0 50%;

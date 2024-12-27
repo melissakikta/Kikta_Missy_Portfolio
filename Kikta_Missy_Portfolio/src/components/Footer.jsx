@@ -1,10 +1,10 @@
 //import header style sheet
-import '../styles/Header.css';
+import '../styles/Footer.css';
 
 //function to create the Header
 function footer() {
   return (
-    <header className="foooter">
+    <div className="footer">
       <ul className="footer-links" >
       {/* Add links to LinkedIn, GitHub, and BlueSky */}
       <h2>
@@ -25,7 +25,7 @@ function footer() {
           </a>
         </h2>
       </ul>
-    </header>
+    </div>
   );
 }
 
