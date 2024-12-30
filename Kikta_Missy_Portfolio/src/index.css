@@ -56,8 +56,4 @@ h1 {
     width: 75%;
   }
 
-  .card-column {
-    flex: 0 0 33.333%;
-    max-width: 33.333%;
-  }
 }

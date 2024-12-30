@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --background: #2E1C2B;
+  --dark: #050404;
+  --mid: #4A1942;
+  --light: #893168;
+  --lightest: #EAEAEA;
+}
+
+body {
+  font-family: lato, sans-serif;
+  color: var(--lightest);
+  background-color: var(--background); 
+}
+
+.skills-container {
+  padding: 20px;
+}
+
+.skills-columns {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.skills-box {
+  border: 1px solid var(--light);
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  background-color: var(--background);
+  width: 45%;
+}
+
+.skills-box h2 {
+  margin-bottom: 10px;
+}
+
+.skills-box ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-box li {
+  margin: 5px 0;
+}
+
+/* Media Query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .skills-columns {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills-box {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
