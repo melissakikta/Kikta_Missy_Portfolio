@@ -5,6 +5,7 @@ import NavTabs from './NavTabs';
 import AboutMe from './AboutMe';
 import Portfolio from './Portfolio';
 import ContactForm from './ContactForm';
+import Skills from './Skills';
 
 //function to create the Navbar
 function Navbar() {
@@ -14,10 +15,11 @@ function Navbar() {
   const renderPage = () => {
     if (currentPage === 'AboutMe') {
       return <AboutMe />;
-    }
-    if (currentPage === 'Portfolio') {
+    } else if (currentPage === 'Portfolio') {
       return <Portfolio />;
-    }
+    } else if (currentPage === 'Skills') {
+      return <Skills />;
+    } else
     return <ContactForm />;
   };
 
