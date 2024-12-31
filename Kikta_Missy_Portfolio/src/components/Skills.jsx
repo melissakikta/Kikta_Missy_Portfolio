@@ -8,7 +8,6 @@ function Skills () {
       <h1>Skills</h1>
       <div className="skills-columns">
         <div className="skills-box">
-          <h2>Technical Skills</h2>
           <ul>
             <li>HTML</li>
             <li>CSS</li>
@@ -20,7 +19,6 @@ function Skills () {
           </ul>
         </div>
         <div className="skills-box">
-          <h2>Soft Skills</h2>
           <ul>
             <li>Problem Solving</li>
             <li>Written and Oral Communication</li>
@@ -29,13 +27,17 @@ function Skills () {
             <li>Leadership</li>
             <li>Creativity</li>
             <li>Adaptability</li>
+          </ul>
+        </div>
+        <div className="skills-box">  
+          <ul>
             <li>Organization</li>
             <li>Critical Thinking</li>
             <li>Attention to Detail</li>
             <li>Coaching and Mentoring</li>
             <li>Resource Allocation and Management</li>
             <li>Professional Development</li>
-          </ul>
+          </ul>  
         </div>
       </div>
     </div>

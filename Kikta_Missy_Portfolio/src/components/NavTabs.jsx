@@ -33,6 +33,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         >
           <h2>Skills</h2>
         </a>
+      </li>
 <li className="nav-item">
         <a
           href="#contactForm"

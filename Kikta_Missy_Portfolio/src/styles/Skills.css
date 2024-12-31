@@ -15,7 +15,8 @@
 body {
   font-family: lato, sans-serif;
   color: var(--lightest);
-  background-color: var(--background); 
+  background-color: var(--background);
+  margin-top: 100px; /* Account for header and navbar height */ 
 }
 
 .skills-container {
