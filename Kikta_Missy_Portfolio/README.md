@@ -1,6 +1,7 @@
 # Kikta_Missy_Portfolio
 Welcome to my portfolio! This is a space dedicated to showing my talents in software development.
- inner readme
+portfolio
+
 ## 📚 Description
 This application is designed to showcase the skills and talents I gained as a software developer.   
 
