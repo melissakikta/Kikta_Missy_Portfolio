@@ -20,31 +20,37 @@ Navigating the portfolio is user friendly with navigation links locked at the to
 
 <u><strong>Navigation Links</strong></u>
 
-![Navigation](./assets/navigation)
+![Navigation](./src/assets/images/navigation.png)
 
 
 
 <u><strong>About Me</strong></u>
 
-![About Me](./assets/initial_prompt.png)
+![About Me](./src/assets/images/aboutme.png)
 
 
 
 <u><strong>Portfolio</strong></u>
 
-![Portfolio](./assets/view_departments.png)
+![Portfolio](./src/assets/images/portfolio.png)
+
+
+
+<u><strong>Skills</strong></u>
+
+![Portfolio](./src/assets/images/skills.png)
 
 
 
 <u><strong>Contact Form </strong></u>
 
-![Contact Form](./assets/add_role.png)
+![Contact Form](./src/assets/images/contactform.png)
 
 
 
 <u><strong>Networking Links</strong></u>
 
-![Networking Links](./assets/delete_role.png)
+![Networking Links](./src/assets/images/networking.png)
 
 
 Back to [Table-of-Contents](#🚀-table-of-contents)
