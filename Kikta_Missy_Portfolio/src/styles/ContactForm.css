@@ -14,14 +14,14 @@
 
 .contactForm {
   background: var(--background);
-  font-family: lato , sans-serif;
   min-height: 100vh; /* Full viewport height */
   display: flex; /* Flexbox for layout */
   align-items: center; /* Vertical centering */
   justify-content: center; /* Horizontal centering */
   padding: 20px; /* Add padding to avoid edge collisions */
   box-sizing: border-box; /* Ensure padding is included in width/height */
-  margin-top: 20px; /* Account for header and navbar height */
+  margin-top: 140px; /* Accounts for the header and navbar height */
+  margin-bottom: 60px; /* Accounts for the footer height */  
 }
 
 .contactForm h1 {

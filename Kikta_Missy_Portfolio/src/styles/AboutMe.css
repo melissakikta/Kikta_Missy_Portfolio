@@ -14,7 +14,6 @@
 
 .aboutMe {
   background: var(--background);
-  font-family: lato, sans-serif;
   padding: 20px;
   margin-top: 140px; /* Accounts for the header and navbar height */
   margin-bottom: 60px; /* Accounts for the footer height */
@@ -35,11 +34,10 @@
 
 .aboutMe-text {
   color: var(--lightest);
-  font-family: lato, sans-serif;
   max-width: 600px; /* Limit text width */
 }
 
-.aboutMe h1 {
+.aboutMe-text h1 {
   font-family: abril_fatface, sans-serif;
   text-align: left; /* Align to the left */
   color: var(--lightest);
@@ -48,6 +46,7 @@
 .aboutMe p {
   font-size: 1.5rem;
   line-height: 1.5;
+  font-family: lato, sans-serif;
 }
 
 @media screen and (max-width: 768px) {

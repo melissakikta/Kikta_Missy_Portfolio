@@ -85,6 +85,11 @@
     align-items: center;     /* Center align the links */
     gap: 15px;               /* Add space between stacked links */
   }
+
+  .footer-links img {
+    width: 50px;              /* Set icon size */
+    height: auto;
+  }
 }
 
 /* media query for larger screens */
