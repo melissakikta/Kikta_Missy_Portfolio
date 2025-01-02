@@ -20,13 +20,14 @@
   justify-content: center; /* Horizontal centering */
   padding: 20px; /* Add padding to avoid edge collisions */
   box-sizing: border-box; /* Ensure padding is included in width/height */
-  margin-top: 140px; /* Accounts for the header and navbar height */
+  margin-top: 80px; /* Accounts for the header and navbar height */
   margin-bottom: 60px; /* Accounts for the footer height */  
 }
 
 .contactForm h1 {
-  font-family: abril_fatface, sans-serif;
+  font-family: 'Abril Fatface', sans-serif;
   color: var(--lightest);
+  font-size: 3rem;
 }
 
 .contactForm p {

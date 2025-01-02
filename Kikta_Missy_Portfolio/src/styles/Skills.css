@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 * {
+  padding: 0;
   box-sizing: border-box;
 }
 
@@ -12,21 +13,50 @@
   --lightest: #EAEAEA;
 }
 
-body {
+html body {
   font-family: lato, sans-serif;
   color: var(--lightest);
   background-color: var(--background);
-  margin-top: 100px; /* Account for header and navbar height */ 
+  margin-top: 120px; /* Account for header and navbar height */ 
+  height: 100%; /* Ensure full height for flexbox alignment */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+  text-align: center; /* Text alignment inside */
 }
 
 .skills-container {
+  width: 100%; /* Ensure it takes full width */
+  max-width: 1200px; /* Optional: limit max width */
+  margin-top: 120px; /* Account for header and navbar height */
+  /*margin: 0 auto;  Center horizontally */
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills-container h1 {
+  font-family: 'Abril Fatface', sans-serif;
+  text-align: center; /* Align to the center */
+  font-size: 3rem;
+  color: var(--lightest);
+  margin-bottom: 10px;
+  width: 100%; /* Ensures full width to center properly */
 }
 
 .skills-columns {
   display: flex;
-  justify-content: space-around;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
   gap: 20px;
+  flex-wrap: wrap; /* Allow wrapping for smaller screens */
+  width: 100%; /* Ensure it spans the full width */
 }
 
 .skills-box {
@@ -35,7 +65,12 @@ body {
   padding: 20px;
   border-radius: 8px;
   background-color: var(--background);
-  width: 45%;
+  width: 30%; /* Make the boxes smaller to fit nicely */
+  min-width: 200px; /* Prevent shrinking too much */
+  max-width: 300px; /* Set an upper limit */
+  text-align: center; /* Ensure content inside is centered */
+  margin: 0 auto; /* Ensure centering horizontally */
+  text-align: center; /* Ensure text inside is centered */
 }
 
 .skills-box h2 {

@@ -14,7 +14,7 @@ function Portfolio() {
               <h2>Employee Tracker</h2>
             </a>
             <a href="https://github.com/melissakikta/Kikta_Employee_Tracker.git" target="_blank" rel="noopener noreferrer">
-              <p>GitHub Repo</p>
+            <img src="../src/assets/images/github.png" alt="GitHub Logo" style={{ width: '50px', height: 'auto' }} />
             </a>
           </div>
 
@@ -23,7 +23,7 @@ function Portfolio() {
               <h2>Weather Dashboard</h2>
             </a>
             <a href="https://github.com/melissakikta/Kikta_Weather_Dashboard.git" target="_blank" rel="noopener noreferrer">
-              <p>GitHub Repo</p>
+              <img src="../src/assets/images/github.png" alt="GitHub Logo" style={{ width: '50px', height: 'auto' }} />
             </a>
           </div>
 
@@ -32,7 +32,7 @@ function Portfolio() {
               <h2>Vehicle Builder</h2>
             </a>
             <a href="https://github.com/melissakikta/Kikta_Vehicle_Builder.git" target="_blank" rel="noopener noreferrer">
-              <p>GitHub Repo</p>
+            <img src="../src/assets/images/github.png" alt="GitHub Logo" style={{ width: '50px', height: 'auto' }} />
             </a>
           </div>
 
@@ -41,7 +41,7 @@ function Portfolio() {
               <h2>README Generator</h2>
             </a>
             <a href="https://github.com/melissakikta/Kikta_README_Generator.git" target="_blank" rel="noopener noreferrer">
-              <p>GitHub Repo</p>
+            <img src="../src/assets/images/github.png" alt="GitHub Logo" style={{ width: '50px', height: 'auto' }} />
             </a>
           </div>
 
@@ -50,7 +50,7 @@ function Portfolio() {
               <h2>Rescuers Down Under Pet Rescue</h2>
             </a>
             <a href="https://github.com/kagreene/Rescuers-down-under.git" target="_blank" rel="noopener noreferrer">
-              <p>GitHub Repo</p>
+            <img src="../src/assets/images/github.png" alt="GitHub Logo" style={{ width: '50px', height: 'auto' }} />
             </a>
           </div>
 
@@ -59,7 +59,7 @@ function Portfolio() {
               <h2>Portfolio (HTML/CSS)</h2>
             </a>
             <a href="https://github.com/melissakikta/Portfolio.git" target="_blank" rel="noopener noreferrer">
-              <p>GitHub Repo</p>
+            <img src="../src/assets/images/github.png" alt="GitHub Logo" style={{ width: '50px', height: 'auto' }} />
             </a>
           </div>
         </div>

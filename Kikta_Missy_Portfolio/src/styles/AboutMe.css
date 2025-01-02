@@ -17,6 +17,8 @@
   padding: 20px;
   margin-top: 140px; /* Accounts for the header and navbar height */
   margin-bottom: 60px; /* Accounts for the footer height */
+  font-family: abril_fatface, sans-serif;
+
 }
 
 .aboutMe-container {
@@ -38,7 +40,7 @@
 }
 
 .aboutMe-text h1 {
-  font-family: abril_fatface, sans-serif;
+  font-family: 'Abril Fatface', sans-serif;
   text-align: left; /* Align to the left */
   color: var(--lightest);
   margin-bottom: 10px;
@@ -46,7 +48,7 @@
 .aboutMe p {
   font-size: 1.5rem;
   line-height: 1.5;
-  font-family: lato, sans-serif;
+  text-align: left;
 }
 
 @media screen and (max-width: 768px) {
