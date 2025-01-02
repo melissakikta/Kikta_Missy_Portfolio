@@ -70,9 +70,9 @@ Back to [Table-of-Contents](#🚀-table-of-contents)
 ## 🫱🏽‍🫲🏾 Credits
 *********VITE*********
 
-This applications requires the use of the npm package <strong>inquirer</strong>. Please find information regarding its creditials below:
+This applications requires the use of <strong>vite</strong>. Please find information regarding its use with the link below.
 
-GitHub Repository: [GitHub.com/SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
+[Vite](https://vite.dev/guide/)
 
 Back to [Table-of-Contents](#🚀-table-of-contents)
 
