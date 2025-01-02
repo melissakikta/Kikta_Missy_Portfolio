@@ -68,8 +68,6 @@ Back to [Table-of-Contents](#🚀-table-of-contents)
 
 
 ## 🫱🏽‍🫲🏾 Credits
-*********VITE*********
-
 This applications requires the use of <strong>vite</strong>. Please find information regarding its use with the link below.
 
 [Vite](https://vite.dev/guide/)
