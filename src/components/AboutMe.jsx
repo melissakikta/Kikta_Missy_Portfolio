@@ -1,6 +1,6 @@
 //import About Me style sheet
 import '../styles/AboutMe.css';
-
+import mkikta from '../assests/images/m_kikta.jpeg';
 //function to create the About Me section
 function AboutMe() {
   return (
@@ -11,7 +11,7 @@ function AboutMe() {
       
       {/* Add an image of me */}
         <img 
-          src="../src/assets/images/m_kikta.jpeg" 
+          src={mkikta}
           alt="Melissa Kikta Photo"
           className="aboutMe-image"
         />
