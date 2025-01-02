@@ -1,6 +1,6 @@
 //import About Me style sheet
 import '../styles/AboutMe.css';
-import mkikta from '../assests/images/m_kikta.jpeg';
+import mkikta from '../assets/images/m_kikta.jpeg';
 //function to create the About Me section
 function AboutMe() {
   return (
