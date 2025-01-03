@@ -76,7 +76,7 @@ h1 {
   margin-right: 0;
 }
 
-.nav-item a:active {
+.nav-item a.active {
   background-color: var(--background);
   color: var(--lightest);
 }
