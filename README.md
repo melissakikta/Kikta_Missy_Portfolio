@@ -5,8 +5,6 @@ portfolio
 ## 📚 Description
 This application is designed to showcase the skills and talents I gained as a software developer.   
 
-A video tutorial can be found [here](https://drive.google.com/file/d/1nGRM2oSELmLZ6qEQkkcaF6xz0PEmrMWx/view?usp=sharing)
-
 ## 🚀 Table of Contents
   * [Usage](#📝-Usage)
   * [Features](#⭐-features)
