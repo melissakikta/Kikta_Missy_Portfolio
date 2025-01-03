@@ -50,7 +50,7 @@
 
 .flex-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible grid layout */
   gap: 20px; /* Spacing between items */
   padding: 20px;
   justify-content: center; /* Centers the grid horizontally */
@@ -60,18 +60,23 @@
 
 .flex-item {
   position: relative;
-  width: 100%;
   border-radius: 10px; /* Optional rounded corners */
   overflow: hidden; /* Prevents content overflow */
   cursor: pointer;
-  transition: transform 0.3s, box-shadow 0.3s;
+  transition: transform 0.3s, box-shadow 0.8s;
   margin: 0 auto; /* Centers items inside each grid cell */
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px; /* Consistent height for all items */
+  width: 100%; /* Ensure grid cells fill equally */
+  padding: 10px; /* Padding for spacing */
 }
 
 .flex-item:hover {
-  transform: scale(1.05); /* Slight zoom effect on hover */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+  transform: scale(1.1); /* Slight zoom effect on hover */
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.7);
 }
 
 /* Background overlay with blur effect */
@@ -82,9 +87,15 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: var(--light); /* Dark overlay */
-  backdrop-filter: blur(3px); /* Blur effect */
   z-index: 1;
+}
+
+.flex-item h2 {
+  display: flex; /* Align title and icon horizontally */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  gap: 10px; /* Add spacing between elements */
+  margin-top: 10px; /* Space above the title */
 }
 
 /* Text on the image */
@@ -108,8 +119,8 @@
 .flex-item a i {
   position: relative; /* Ensure it respects z-index */
   z-index: 3; /* Place above the overlay */
-  width: 30px; /* Adjust size */
-  height: 30px;
+  width: 40px; /* Adjust size */
+  height: auto;
   margin-top: 10px; /* Add spacing */
 }
 
@@ -119,7 +130,23 @@
   margin-top: 10px;
 }
 
-/* media queries */
+.project-image {
+  width: 100%; /* Make images fill their container width */
+  height: 200px; /* Set a fixed height */
+  object-fit: cover; /* Maintain aspect ratio and crop if necessary */
+  border-radius: 10px; /* Match container's border-radius */
+}
+
+.github-icon {
+  width: auto;
+  height: 30px;
+  margin-left: 10px; /* Space between title and icon */
+  vertical-align: middle; /* Align icon with the title */
+}
+
+.github-icon:hover {
+  filter: invert(1); /* Invert colors on hover */
+}
 
 /* media queries for a max-width of 980px */
 @media screen and (max-width: 768px) {
