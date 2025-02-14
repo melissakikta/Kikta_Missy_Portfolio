@@ -5,7 +5,37 @@ import '../styles/Skills.css';
 function Skills () {
   return (
     <div className="skills-container">
-      <h1>Skills</h1>
+      <h2>Technical Skills</h2>
+      <div className="skills-columns">
+        <div className="skills-box">
+          <ul>
+            <li><strong>Front-End Development</strong></li>
+            <li>HTML, CSS, JavaScript, React, Web APIs</li>
+            <li><strong>Back-End Development</strong></li>
+            <li>Node.js, Express.js, Python Fundamentals</li>
+          </ul>
+        </div>
+        <div className="skills-box">
+          <ul>
+            <li><strong>Database Management</strong></li>
+            <li>PostgreSQL, MongoDB, NoSQL</li>
+            <li><strong>Full-Stack Development</strong></li>
+            <li>MERN Stack, TypeScript, Authentication & Authorization, API Consumption</li>
+            <li><strong>Version Control & Development</strong></li>
+            <li>Git, CI/CD Pipelines, Testing (unit, component, integration, and end-to-end)</li>
+          </ul>
+        </div>
+        <div className="skills-box">  
+          <ul>
+            <li><strong>Advanced Software Development</strong></li>
+            <li>OOP, Agile Methodologies, Prompt Engineering</li>
+            <li><strong>Additional Tools</strong></li>
+            <li>AI-Assisted Coding, Google Suite, Microsoft Office</li>
+          </ul>  
+        </div>
+      </div>
+
+      <h2>Areas of Expertise</h2>
       <div className="skills-columns">
         <div className="skills-box">
           <ul>
@@ -20,11 +50,11 @@ function Skills () {
         </div>
         <div className="skills-box">
           <ul>
-            <li>Problem Solving</li>
+            <li>Teamwork/Team Building</li>
             <li>Written and Oral Communication</li>
-            <li>Teamwork</li>
-            <li>Time Management</li>
-            <li>Leadership</li>
+            <li>Cross-Functional Team Leadership</li>
+            <li>Goal Oriented Measurement</li>
+            <li>Technology Integration</li>
             <li>Creativity</li>
             <li>Adaptability</li>
           </ul>
@@ -40,7 +70,11 @@ function Skills () {
           </ul>  
         </div>
       </div>
+
     </div>
+
+    
+    
   );
 };
 

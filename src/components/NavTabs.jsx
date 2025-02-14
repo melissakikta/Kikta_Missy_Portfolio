@@ -46,7 +46,7 @@ function NavTabs({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a 
-          href="https://drive.google.com/file/d/14GO16Umx7UcntMyhBqZwolBbq5VWmS5w/view?usp=drive_link" 
+          href="https://drive.google.com/file/d/1YEUuChWJHWl27sCJ8AnXGlHjKZh7ij2q/view?usp=sharing" 
           target="_blank" 
           rel="noopener noreferrer"
           // Check to see if the currentPage is `Resume`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link

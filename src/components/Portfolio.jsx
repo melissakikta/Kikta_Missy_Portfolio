@@ -15,7 +15,7 @@ function Portfolio() {
       <div className="page-section">
         <h1>Portfolio</h1>
         <div className="flex-container">
-          <div className="flex-item">
+          {/* <div className="flex-item">
             <img src={project1} alt="Employee Tracker" className="project-image" />
             <h2>
               <a href="https://github.com/melissakikta/Kikta_Employee_Tracker.git" target="_blank" rel="noopener noreferrer">
@@ -25,12 +25,12 @@ function Portfolio() {
                 <img src={github} alt="GitHub Logo" className="github-icon" />
               </a>
             </h2>
-          </div>
+          </div> */}
 
           <div className="flex-item">
             <img src={project2} alt="Weather Dashboard" className="project-image" />
             <h2>
-              <a href="https://github.com/melissakikta/Kikta_Weather_Dashboard.git" target="_blank" rel="noopener noreferrer">
+              <a href="https://kikta-weather-dashboard.onrender.com" target="_blank" rel="noopener noreferrer">
                 Weather Dashboard
               </a>
               <a href="https://github.com/melissakikta/Kikta_Weather_Dashboard.git" target="_blank" rel="noopener noreferrer">
@@ -39,7 +39,7 @@ function Portfolio() {
             </h2>
           </div>
 
-          <div className="flex-item">
+          {/* <div className="flex-item">
             <img src={project3} alt="Vehicle Builder" className="project-image" />
             <h2>
               <a href="https://github.com/melissakikta/Kikta_Vehicle_Builder.git" target="_blank" rel="noopener noreferrer">
@@ -49,9 +49,9 @@ function Portfolio() {
                 <img src={github} alt="GitHub Logo" className="github-icon" />
               </a>
             </h2>
-          </div>
+          </div> */}
 
-          <div className="flex-item">
+          {/* <div className="flex-item">
             <img src={project4} alt="README Generator" className="project-image" />
             <h2>
               <a href="https://github.com/melissakikta/Kikta_README_Generator.git" target="_blank" rel="noopener noreferrer">
@@ -61,7 +61,7 @@ function Portfolio() {
                 <img src={github} alt="GitHub Logo" className="github-icon" />
               </a>
             </h2>
-          </div>
+          </div> */}
 
           <div className="flex-item">
             <img src={project5} alt="Rescuers Down Under" className="project-image" />
@@ -75,17 +75,18 @@ function Portfolio() {
             </h2>
           </div>
 
-          <div className="flex-item">
+          {/* <div className="flex-item">
             <img src={project6} alt="Portfolio" className="project-image" />
             <h2>
-              <a href="https://github.com/melissakikta/Portfolio.git" target="_blank" rel="noopener noreferrer">
-                Portfolio (HTML/CSS)
+              <a href="https://kikta-candidate-search-1.onrender.com/" rel="noopener noreferrer">
+                Candidate Search
               </a>
-              <a href="https://github.com/melissakikta/Portfolio.git" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/melissakikta/Kikta_Candidate_Search.git" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="GitHub Logo" className="github-icon" />
               </a>
             </h2>
-          </div>
+          </div> */}
+          
         </div>
       </div>
     </section>
