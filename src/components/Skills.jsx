@@ -9,27 +9,31 @@ function Skills () {
       <div className="skills-columns">
         <div className="skills-box">
           <ul>
-            <li><strong>Front-End Development</strong></li>
+            <li><strong><u>Front-End Development</u></strong></li>
             <li>HTML, CSS, JavaScript, React, Web APIs</li>
-            <li><strong>Back-End Development</strong></li>
+            <br></br>
+            <li><strong><u>Back-End Development</u></strong></li>
             <li>Node.js, Express.js, Python Fundamentals</li>
           </ul>
         </div>
         <div className="skills-box">
           <ul>
-            <li><strong>Database Management</strong></li>
+            <li><strong><u>Database Management</u></strong></li>
             <li>PostgreSQL, MongoDB, NoSQL</li>
-            <li><strong>Full-Stack Development</strong></li>
+            <br></br>
+            <li><strong><u>Full-Stack Development</u></strong></li>
             <li>MERN Stack, TypeScript, Authentication & Authorization, API Consumption</li>
-            <li><strong>Version Control & Development</strong></li>
+            <br></br>
+            <li><strong><u>Version Control & Development</u></strong></li>
             <li>Git, CI/CD Pipelines, Testing (unit, component, integration, and end-to-end)</li>
           </ul>
         </div>
         <div className="skills-box">  
           <ul>
-            <li><strong>Advanced Software Development</strong></li>
+            <li><strong><u>Advanced Software Development</u></strong></li>
             <li>OOP, Agile Methodologies, Prompt Engineering</li>
-            <li><strong>Additional Tools</strong></li>
+            <br></br>
+            <li><strong><u>Additional Tools</u></strong></li>
             <li>AI-Assisted Coding, Google Suite, Microsoft Office</li>
           </ul>  
         </div>

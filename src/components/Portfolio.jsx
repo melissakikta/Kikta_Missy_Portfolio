@@ -2,10 +2,10 @@ import '../styles/Portfolio.css';
 import github from '../assets/images/github.png';
 import project1 from '../assets/images/employees.png';
 import project2 from '../assets/images/weather.webp';
-import project3 from '../assets/images/vehicle.jpg';
-import project4 from '../assets/images/readme.png';
+// import project3 from '../assets/images/vehicle.jpg';
+// import project4 from '../assets/images/readme.png';
 import project5 from '../assets/images/pets.jpeg';
-import project6 from '../assets/images/kikta.png';
+import project6 from '../assets/images/candidate.jpg';
 
 
 //function to create the About Me section
@@ -15,17 +15,17 @@ function Portfolio() {
       <div className="page-section">
         <h1>Portfolio</h1>
         <div className="flex-container">
-          {/* <div className="flex-item">
+          <div className="flex-item">
             <img src={project1} alt="Employee Tracker" className="project-image" />
             <h2>
-              <a href="https://github.com/melissakikta/Kikta_Employee_Tracker.git" target="_blank" rel="noopener noreferrer">
-                Employee Tracker
+              <a href="https://kanban-board-l6qf.onrender.com" target="_blank" rel="noopener noreferrer">
+                Kanban Board
               </a>
-              <a href="https://github.com/melissakikta/Kikta_Employee_Tracker.git" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/melissakikta/Kanban_Board.git" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="GitHub Logo" className="github-icon" />
               </a>
             </h2>
-          </div> */}
+          </div>
 
           <div className="flex-item">
             <img src={project2} alt="Weather Dashboard" className="project-image" />
@@ -75,7 +75,7 @@ function Portfolio() {
             </h2>
           </div>
 
-          {/* <div className="flex-item">
+          <div className="flex-item">
             <img src={project6} alt="Portfolio" className="project-image" />
             <h2>
               <a href="https://kikta-candidate-search-1.onrender.com/" rel="noopener noreferrer">
@@ -85,7 +85,7 @@ function Portfolio() {
                 <img src={github} alt="GitHub Logo" className="github-icon" />
               </a>
             </h2>
-          </div> */}
+          </div>
           
         </div>
       </div>

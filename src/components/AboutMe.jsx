@@ -21,7 +21,7 @@ function AboutMe() {
           <h1>About Me</h1>
       {/* Bio paragraph */}
           <p>
-            I am looking for a career opportunity where the company and people match my enthusiasm for creating excellence and leading through service. After a successful tenure in public education, I would like to shift my focus to more creative pursuits on user design and interface. I truly value working with others to support their growth and achieve our goals. I am excited to bring my skills in project management, communication, collaboration, and full stack development to a new team.
+          I am looking for a career opportunity where the company and people match my enthusiasm for creating excellence and leading through service. After a successful tenure in public education, I am excited to apply my skills in problem-solving, project management, and collaboration to the world of software development. With a passion for user-centered design and intuitive interfaces, I thrive on analyzing requirements, developing solutions, and refining applications to enhance user experiences. I look forward to contributing to a team where I can leverage my strengths in communication, adaptability, and full-stack development to build impactful software that supports both customers and employees.
           </p>
         </div>
       </div>
