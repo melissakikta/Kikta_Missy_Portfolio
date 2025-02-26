@@ -5,6 +5,8 @@ portfolio
 ## 📚 Description
 This application is designed to showcase the skills and talents I gained as a software developer.   
 
+[Deployed Site](https://melissa-kikta.netlify.app/)
+
 ## 🚀 Table of Contents
   * [Usage](#📝-Usage)
   * [Features](#⭐-features)
