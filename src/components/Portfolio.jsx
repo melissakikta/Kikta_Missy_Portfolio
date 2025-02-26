@@ -60,8 +60,8 @@ function Portfolio() {
               <img src={project3} alt="book" className="project-image" />
                 <div className="overlay">
                     <p>An application that allows users to search for books and save to their account. </p>
-                    <p><u>Responsibilities: Converting a REASTful API to a GraphQL API</u></p>
-                    <p><u>Language: TypeScript, JavaScript, HTML, CSS</u></p>
+                    <p><u>Responsibilities:</u> Converting a REASTful API to a GraphQL API</p>
+                    <p><u>Language:</u> TypeScript, JavaScript, HTML, CSS</p>
                     <p><u>Tools:</u> API, GraphQL </p>
                 </div>
             </div>
