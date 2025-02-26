@@ -1,4 +1,5 @@
 import '../styles/NavTabs.css';
+import PropTypes from 'prop-types';
 // Passing the currentPage and handlePageChange method from our parent component (PortfolioContainer) to our child component (NavTabs)
 function NavTabs({ currentPage, handlePageChange }) {
   return (
@@ -58,5 +59,10 @@ function NavTabs({ currentPage, handlePageChange }) {
     </ul>
   );
 }
+NavTabs.propTypes = {
+  currentPage: PropTypes.string.isRequired,
+  handlePageChange: PropTypes.func.isRequired,
+};
 
 export default NavTabs;
+
