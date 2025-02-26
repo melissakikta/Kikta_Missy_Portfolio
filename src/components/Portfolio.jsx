@@ -56,14 +56,15 @@ function Portfolio() {
           </div>
 
           <div className="flex-item">
-              <div className="img-container">
-            <img src={project3} alt="book" className="project-image" />
+            <div className="img-container">
+              <img src={project3} alt="book" className="project-image" />
                 <div className="overlay">
                     <p>An application that allows users to search for books and save to their account. </p>
                     <p><u>Responsibilities: Converting a REASTful API to a GraphQL API</u></p>
                     <p><u>Language: TypeScript, JavaScript, HTML, CSS</u></p>
                     <p><u>Tools:</u> API, GraphQL </p>
                 </div>
+            </div>
             <h2>
               <a href="https://kikta-book-search-engine.onrender.com/" target="_blank" rel="noopener noreferrer">
                 Book Search
@@ -72,7 +73,6 @@ function Portfolio() {
                 <img src={github} alt="GitHub Logo" className="github-icon" />
               </a>
             </h2>
-           </div>
           </div>
 
           {/* <div className="flex-item">
