@@ -18,20 +18,21 @@ html body {
   color: var(--lightest);
   background-color: var(--background);
   margin-top: 120px; /* Account for header and navbar height */ 
-  height: 100%; /* Ensure full height for flexbox alignment */
+  /* height: 100%; Ensure full height for flexbox alignment */
   margin: 0; /* Remove default margin */
   padding: 0; /* Remove default padding */
   box-sizing: border-box;
   display: flex;
   justify-content: center; /* Horizontal centering */
-  align-items: center; /* Vertical centering */
-  text-align: center; /* Text alignment inside */
+  /* align-items: center; Vertical centering */
+  /* text-align: center; Text alignment inside */
 }
 
 .skills-container {
   width: 100%; /* Ensure it takes full width */
   max-width: 1200px; /* Optional: limit max width */
-  margin-top: 120px; /* Account for header and navbar height */
+  width: 100%; /* Ensure it takes full width */
+  margin: 120px auto 0 auto; /* Account for header and navbar height */
   /*margin: 0 auto;  Center horizontally */
   padding: 20px;
   display: flex;
