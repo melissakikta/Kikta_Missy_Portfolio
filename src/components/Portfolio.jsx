@@ -19,17 +19,17 @@ function Portfolio() {
             <div className="img-container">
               <img src={project1} alt="Employee Tracker" className="project-image" />
                 <div className="overlay">
-                  <p>A ticketing system to handle tasks</p>
-                  <p><u>Responsibilities:</u> Authentication with JSON Web Tokens</p>
+                  <p>A testing system to quiz users on their Python knowledge</p>
+                  <p><u>Responsibilities:</u> Creating the CI/CD pipeline</p>
                   <p><u>Languages:</u> TypeScript, Java Script</p>
-                  <p><u>Tools:</u> Node.js, Vite, and PostgreSQL</p>
+                  <p><u>Tools:</u> Node.js, Vite, and Cypress</p>
                 </div>
             </div>
             <h2>
-              <a href="https://kanban-board-l6qf.onrender.com" target="_blank" rel="noopener noreferrer">
-                Kanban Board
+              <a href="https://kikta-cicd.onrender.com" target="_blank" rel="noopener noreferrer">
+                 Quiz 
               </a>
-              <a href="https://github.com/melissakikta/Kanban_Board.git" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/melissakikta/Kikta_CICD.git" target="_blank" rel="noopener noreferrer">
                 <img src={github} alt="GitHub Logo" className="github-icon" />
               </a>
             </h2>
