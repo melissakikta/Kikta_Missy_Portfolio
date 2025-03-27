@@ -3,7 +3,7 @@ import github from '../assets/images/github.png';
 import project1 from '../assets/images/employees.png';
 import project2 from '../assets/images/weather.webp';
 import project3 from '../assets/images/books.jpg';
-// import project4 from '../assets/images/readme.png';
+import project4 from '../assets/images/byteshift.png';
 import project5 from '../assets/images/pets.jpeg';
 import project6 from '../assets/images/candidate.jpg';
 
@@ -15,6 +15,28 @@ function Portfolio() {
       <div className="page-section">
         <h1>Portfolio</h1>
         <div className="flex-container">
+            
+          <div className="flex-item">
+            <div className="img-container">
+              <img src={project4} alt="README Generator" className="project-image" />
+                <div className="overlay">
+                  <p>Feature Rich Resource Sharing Platform for teams or groups!
+                  </p>
+                  <p><u>Responsibilities: </u>Front End User Expereince</p>
+                  <p><u>Language: </u>TypeScript, Java Script</p>
+                  <p><u>Tools: </u> Node,js, Vite, Graphql, MongoDB, Ant Design </p>
+                </div>
+              </div>
+            <h2>
+              <a href="https://byteshift-1.onrender.com/" target="_blank" rel="noopener noreferrer">
+                ByteShift
+              </a>
+              <a href="https://github.com/melissakikta/ByteShift.git" target="_blank" rel="noopener noreferrer">
+                <img src={github} alt="GitHub Logo" className="github-icon" />
+              </a>
+            </h2>
+          </div>
+
           <div className="flex-item">
             <div className="img-container">
               <img src={project1} alt="Employee Tracker" className="project-image" />
@@ -34,6 +56,7 @@ function Portfolio() {
               </a>
             </h2>
           </div>
+
 
           <div className="flex-item">
             <div className="img-container">
@@ -75,25 +98,6 @@ function Portfolio() {
             </h2>
           </div>
 
-          {/* <div className="flex-item">
-            <div className="img-container">
-              <img src={project4} alt="README Generator" className="project-image" />
-                <div className="overlay">
-                  <p>New info </p>
-                  <p><u>Responsibilities:</u></p>
-                  <p><u>Language:</u></p>
-                  <p><u>Tools:</u> API </p>
-                </div>
-              </div>
-            <h2>
-              <a href="https://github.com/melissakikta/Kikta_README_Generator.git" target="_blank" rel="noopener noreferrer">
-                README Generator
-              </a>
-              <a href="https://github.com/melissakikta/Kikta_README_Generator.git" target="_blank" rel="noopener noreferrer">
-                <img src={github} alt="GitHub Logo" className="github-icon" />
-              </a>
-            </h2>
-          </div> */}
 
 
           <div className="flex-item">
