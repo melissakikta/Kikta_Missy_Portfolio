@@ -51,6 +51,7 @@
 .flex-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Flexible grid layout */
+  max-width: 960px; 
   gap: 20px; /* Spacing between items */
   padding: 20px;
   justify-content: center; /* Centers the grid horizontally */
@@ -184,6 +185,13 @@
 .github-icon:hover {
   filter: invert(1); /* Invert colors on hover */
 }
+
+@media screen and (max-width: 1024px) {
+  .flex-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on tablets */
+  }
+}
+
 
 /* media queries for a max-width of 980px */
 @media screen and (max-width: 768px) {
